@@ -99,6 +99,7 @@ body {
 	border-radius: 15px;
 	padding: 0 1%;
 	justify-content: space-between;
+	z-index: 1;
 }
 
 .navagation a, .navagation img{
@@ -115,7 +116,7 @@ nav a:hover {
 }
 
 
-/*--------------------------   Header    ------------------------ */
+/*--------------------------  Home Header    ------------------------ */
 
 
 .header-main {
@@ -164,17 +165,22 @@ h1{
 
 /*-------------------------Products Header------------------------ */
 
+.product-header {
+	border-bottom: 1px solid black;
+	margin-bottom: 3%;
+}
 
 .product-gallery{
 	justify-content: flex-start;
-	margin: 5% 0;
+	margin: 5% 0 3% 0;
 	flex-flow: row wrap;
 	border: 10px solid grey;
 	background: #e5e5e5;
+	
 }
 
 .product-gallery img{
-	width: 10%;
+	width: 12%;
 	margin: 1%;
 	opacity: 50%;
 	border: 1px solid black;
@@ -259,14 +265,43 @@ h1{
 /*---------------------Product Content--------------------------*/
 
 
-.product-content {
-	background: grey;
+.product-content-upper {
+	background: #e5e5e5;
 	padding: 1% 0;
 }
 
 .products {
 	flex-flow: column wrap;
+	padding: 1%;
+	width: 50%;
 }
+
+.products p{
+	margin: 1% auto;
+}
+
+.product-content-lower {
+	margin: 3% 0;
+	border-top: 1px solid black;
+	padding: 3% 0;
+}
+
+.product-content-lower img {
+	padding-right: 1%;
+	width: 50%;
+}
+
+.products-lower {
+	flex-direction: column;
+	justify-content: space-between;
+	background: #e5e5e5;
+	padding: 1%;
+}
+
+.products-lower h3 {
+	align-self: center;
+}
+
 
 
 /* --------------------Contact - Lower ------------------------- */
