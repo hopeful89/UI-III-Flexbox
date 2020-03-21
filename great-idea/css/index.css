@@ -144,57 +144,8 @@ h1{
 	color: white;
 }
 
-/*-------------------------- Services Header ------------------- */
 
-
-.services-header {
-	border-bottom: 1px solid black;
-	padding: 3% 0;
-	margin-bottom: 2%;
-}
-
-.services-header h2 {
-	font-size: 125%;
-	font-weight: 900;
-}
-
-.services-header-img {
-	width: 100%;
-	margin: 2% 0;
-}
-
-/*-------------------------Products Header------------------------ */
-
-.product-header {
-	border-bottom: 1px solid black;
-	margin-bottom: 3%;
-}
-
-.product-gallery{
-	justify-content: flex-start;
-	margin: 5% 0 3% 0;
-	flex-flow: row wrap;
-	border: 10px solid grey;
-	background: #e5e5e5;
-	
-}
-
-.product-gallery img{
-	width: 12%;
-	margin: 1%;
-	opacity: 50%;
-	border: 1px solid black;
-	transition: padding 1s, opacity 2s, height 1s, width 1s;
-} 
-
-.product-gallery img:hover {
-	padding: 0;
-	opacity: 100%;
-	width: 15%;
-}
-
-
-/*--------------------------   Content   ------------------------ */
+/*--------------------------   Home Content   ------------------------ */
 
 
 .upperContent, .lowerContent {
@@ -229,6 +180,44 @@ h1{
 	border-bottom: 1px solid black;
 }
 
+
+/* --------------------Home- Lower ------------------------- */
+
+
+.contactInfo {
+	text-align: left;
+	padding-top: 4%;
+}
+
+.contactInfo div {
+	margin-bottom: 4%;
+}
+
+footer {
+	text-align: center;
+}
+
+/*-------------------------- Services Header ------------------- */
+
+
+.services-header {
+	border-bottom: 1px solid black;
+	padding: 3% 0;
+	margin-bottom: 2%;
+}
+
+.services-header h2 {
+	font-size: 125%;
+	font-weight: 900;
+}
+
+.services-header-img {
+	width: 100%;
+	margin: 2% 0;
+}
+
+
+
 /*--------------------Services Content--------------------------*/
 
 .content {
@@ -262,6 +251,64 @@ h1{
 	color: white;
 }
 
+
+
+
+/* -----------------------Services Lower---------------------*/
+
+.footer-container {
+	margin-top: 2%;
+	flex-flow: row wrap;
+	border-top: 1px solid black;
+	justify-content: space-between;
+	padding: 2% 0;
+}
+
+.footer-box {
+	display: flex;
+	flex-flow: column wrap;
+	width: 48%;
+	text-align: left;
+	justify-content: space-evenly;
+}
+
+.footer-box img{
+	width: 100%;
+}
+
+/*-------------------------Products Header------------------------ */
+
+.product-header {
+	border-bottom: 1px solid black;
+	margin-bottom: 3%;
+}
+
+.product-gallery{
+	justify-content: flex-start;
+	margin: 5% 0 3% 0;
+	flex-flow: row wrap;
+	border: 10px solid grey;
+	background: #e5e5e5;
+	
+}
+
+.product-gallery img{
+	width: 12%;
+	margin: 1%;
+	opacity: 50%;
+	border: 1px solid black;
+	transition: padding 1s, opacity 2s, height 1s, width 1s;
+} 
+
+.product-gallery img:hover {
+	padding: 0;
+	opacity: 100%;
+	width: 15%;
+}
+
+
+
+
 /*---------------------Product Content--------------------------*/
 
 
@@ -280,6 +327,9 @@ h1{
 	margin: 1% auto;
 }
 
+
+
+/* ------------------------Product - Lower -----------------------*/
 .product-content-lower {
 	margin: 3% 0;
 	border-top: 1px solid black;
@@ -303,41 +353,3 @@ h1{
 }
 
 
-
-/* --------------------Contact - Lower ------------------------- */
-
-
-.contactInfo {
-	text-align: left;
-	padding-top: 4%;
-}
-
-.contactInfo div {
-	margin-bottom: 4%;
-}
-
-footer {
-	text-align: center;
-}
-
-/* -----------------------Services Lower---------------------*/
-
-.footer-container {
-	margin-top: 2%;
-	flex-flow: row wrap;
-	border-top: 1px solid black;
-	justify-content: space-between;
-	padding: 2% 0;
-}
-
-.footer-box {
-	display: flex;
-	flex-flow: column wrap;
-	width: 48%;
-	text-align: left;
-	justify-content: space-evenly;
-}
-
-.footer-box img{
-	width: 100%;
-}
